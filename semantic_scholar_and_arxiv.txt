@@ -1,0 +1,11 @@
+! name: Semantic Scholar PDFs
+! description: A Brave Goggle that filters on semantic scholar and arxiv PDFs
+! public: false
+! author: Viren Khandal
+
+
+! Semantic Scholar
+site=pdfs.semanticscholar.org$boost=100
+
+! ArXiV
+site=arxiv.org/pdf$boost=100
