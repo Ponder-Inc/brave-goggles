@@ -1,0 +1,9 @@
+! name: Ponder PDFs only
+! description: ONLY PDFS
+! public: false
+! author: Viren Khandal
+
+
+$discard
+
+$site=*.pdf
