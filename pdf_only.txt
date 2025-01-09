@@ -3,7 +3,4 @@
 ! public: false
 ! author: Viren Khandal
 
-
-$discard
-
-site=*.pdf$boost10000
+site=*.pdf$boost=10
