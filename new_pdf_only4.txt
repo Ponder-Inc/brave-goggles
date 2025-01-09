@@ -5,4 +5,4 @@
 
 $discard
 
-site=pdf
+site=*.pdf
