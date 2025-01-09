@@ -1,8 +1,13 @@
-! name: Ponder Credible Sources Domain Goggles
+! name: Semantic Scholar PDFs
 ! description: A Brave Goggle that filters on credible domains, boosts educational and government domains, discards spam/uncredible domains, and downranks blog sources.
 ! public: false
 ! author: Viren Khandal
 
 
-! Hause Lin's Domains pc1 >= 0.8 
-site=reuters.com$boost=10
+! Semantic Scholar
+site=pdfs.semanticscholar.org
+
+! ArXiV
+site=pdfs.semanticscholar.org
+
+pdf$inurl
