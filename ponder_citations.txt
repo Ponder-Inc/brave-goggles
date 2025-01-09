@@ -3,14 +3,14 @@
 ! public: false
 ! author: Viren Khandal
 
+! Discard anything that doesn't meet the requirements below
+$discard
+
 ! Research Citations are ranked highest get boost of 50
 ! Semantic Scholar PDFs page
 $boost=50,site=pdfs.semanticscholar.org
 ! ArXiv PDFs page
 /pdf^$boost=50,site=arxiv.org
-
-! PDFs automatically get a boost of 10
-/pdf^$boost=10
 
 ! Hause Lin's Domains pc1 >= 0.8 get boost of 20
 site=reuters.com$boost=20
