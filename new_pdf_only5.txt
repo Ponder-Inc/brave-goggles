@@ -3,6 +3,6 @@
 ! public: false
 ! author: Viren Khandal
 
-$discard
-
 site=*.pdf
+
+$discard
