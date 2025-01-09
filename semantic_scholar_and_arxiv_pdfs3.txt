@@ -5,4 +5,4 @@
 
 $discard
 $boost,site=pdfs.semanticscholar.org
-$boost,site=arxiv.org
+/pdf^$boost,site=arxiv.org
