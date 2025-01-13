@@ -1,4 +1,4 @@
-! name: Ponder Official Citations Goggles
+! name: Ponder Hause/ArXiV Goggles
 ! description: A Brave Goggle that combines Hause's list and ArXiV PDFs and downranks everything else
 ! public: false
 ! author: Viren Khandal
