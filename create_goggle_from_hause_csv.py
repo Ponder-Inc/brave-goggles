@@ -35,32 +35,32 @@ boost_domains = [
     "*.org"
 ]
 
-with open("domains.txt", "w") as f:
+with open("hause.txt", "w") as f:
 
     f.write(f"\n! Hause Lin's Domains pc1 >= 0.8 \n")
     for domain in credible_domains:
-        boost_string = f"site={domain}$boost=10"
+        boost_string = f"$boost,site={domain}"
         f.write(boost_string + "\n")
     
-    f.write(f"\n! Boosted Credible Domain Suffixes \n")
-    f.write("\n")
+    # f.write(f"\n! Boosted Credible Domain Suffixes \n")
+    # f.write("\n")
 
-    for domain in boost_domains:
-        boost_string = f"site={domain}$boost=3"
-        f.write(boost_string + "\n")
+    # for domain in boost_domains:
+    #     boost_string = f"site={domain}$boost=3"
+    #     f.write(boost_string + "\n")
 
-    f.write(f"\n! Excluded Domains \n")
-    f.write("\n")
+    # f.write(f"\n! Excluded Domains \n")
+    # f.write("\n")
 
-    for domain in exclude_domains:
-        discard_string = f"site={domain}$discard"
-        f.write(discard_string + "\n")
+    # for domain in exclude_domains:
+    #     discard_string = f"site={domain}$discard"
+    #     f.write(discard_string + "\n")
     
-    f.write(f"\n! Downranked Domain Suffixes \n")
-    f.write("\n")
+    # f.write(f"\n! Downranked Domain Suffixes \n")
+    # f.write("\n")
 
-    for domain in downrank_domains:
-        downrank_string = f"site={domain}$downrank=10"
-        f.write(downrank_string + "\n")
+    # for domain in downrank_domains:
+    #     downrank_string = f"site={domain}$downrank=10"
+    #     f.write(downrank_string + "\n")
     
     f.close()
