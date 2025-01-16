@@ -1278,6 +1278,7 @@ site=*.org$boost=10
 
 ! Excluded Domains 
 
+$discard, site=reddit.com
 $discard, site=youtube.com
 $discard, site=facebook.com
 $discard, site=instagram.com

@@ -1,0 +1,9 @@
+! name: Reuters ONLY
+! description: hause lin filter
+! public: false
+! author: Viren Khandal
+
+! Discard any domains that don't meet the below requirements
+$discard
+
+$boost,site=reuters.com
