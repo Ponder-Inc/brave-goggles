@@ -3,9 +3,6 @@
 ! public: false
 ! author: Viren Khandal
 
-! Discard any domains that don't meet the below requirements
-$discard
-
 ! Semantic Scholar PDFs page
 $boost=10,site=pdfs.semanticscholar.org
 
