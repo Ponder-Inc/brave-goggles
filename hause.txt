@@ -988,7 +988,6 @@ $boost,site=angusreid.org
 $boost,site=chinaafricaproject.com
 $boost,site=kutv.com
 $boost,site=money.yahoo.com
-$boost,site=wetm–mytwintiers.com
 $boost,site=servustv.com
 $boost,site=euronews.com
 $boost,site=hpenews.com
