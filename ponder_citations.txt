@@ -1,10 +1,22 @@
-! name: HAUSE ONLY
-! description: hause lin filter
+! name: Ponder Citations
+! description: ponder citations: semantic, arxiv, domain suffixes, hause's list
 ! public: false
 ! author: Viren Khandal
 
 ! Discard any domains that don't meet the below requirements
 $discard
+
+! Semantic Scholar PDFs page
+$boost,site=pdfs.semanticscholar.org
+
+! ArXiv PDFs page
+/pdf^$boost=50,site=arxiv.org
+
+! Boosted Credible Domain Suffixes like edu and gov by 10
+*.edu$boost=10
+*.gov$boost=10
+*.org$boost=10
+*.pdf$boost=10
 
 ! Hause Lin's Domains pc1 >= 0.8 
 $boost,site=reuters.com
