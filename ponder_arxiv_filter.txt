@@ -1,0 +1,11 @@
+! name: ArXiV Filter Goggles
+! description: A Brave Goggle that filters only PDFs available on ArXiV
+! public: false
+! author: Viren Khandal
+
+! Discard any domains that don't meet the below requirements
+$discard
+
+! Research Citations are ranked highest get boost of 10
+! ArXiv PDFs page
+/pdf^$boost=10,site=arxiv.org

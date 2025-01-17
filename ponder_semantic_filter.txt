@@ -1,0 +1,11 @@
+! name: Semantic Scholar Filter Goggles
+! description: A Brave Goggle that filters only PDFs available on Semantic Scholar
+! public: false
+! author: Viren Khandal
+
+! Discard any domains that don't meet the below requirements
+$discard
+
+! Research Citations are ranked highest get boost of 10
+! ArXiv PDFs page
+$boost=10,site=pdfs.semanticscholar.org

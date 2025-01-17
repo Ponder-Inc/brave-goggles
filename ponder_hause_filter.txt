@@ -1,14 +1,7 @@
-! name: Ponder BOOSTED Citations
-! description: ponder citations: semantic, arxiv, domain suffixes, hause's list
+! name: Hause Lin Domain Quality Rating Filter
+! description: ponder citations: only hause's list
 ! public: false
 ! author: Viren Khandal
-
-! Semantic Scholar PDFs page
-$boost=10,site=pdfs.semanticscholar.org
-/paper^$discard,site=semanticscholar.org
-
-! ArXiv PDFs page
-/pdf^$boost=10,site=arxiv.org
 
 ! Boosted Credible Domain Suffixes like edu and gov by 10
 *.edu$boost=10
