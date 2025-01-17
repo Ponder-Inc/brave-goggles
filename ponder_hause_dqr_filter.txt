@@ -7,7 +7,6 @@
 *.edu$boost=10
 *.gov$boost=10
 *.org$boost=10
-*.pdf$boost=10
 
 ! Hause Lin's Domains pc1 >= 0.8 
 $boost=7,site=reuters.com
