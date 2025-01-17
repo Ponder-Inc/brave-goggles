@@ -5,6 +5,7 @@
 
 ! Semantic Scholar PDFs page
 $boost=10,site=pdfs.semanticscholar.org
+/paper^$discard,site=semanticscholar.org
 
 ! ArXiv PDFs page
 /pdf^$boost=10,site=arxiv.org
