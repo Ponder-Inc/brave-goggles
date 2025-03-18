@@ -5,7 +5,7 @@ import pandas as pd
 # Read the CSV file
 df = pd.read_csv('domain_pc1.csv')
 
-df = df[df['pc1'] >= 0.8]
+df = df[(df['pc1'] >= 0.6) & (df['pc1'] <= 0.8)]
 
 credible_domains = df['domain'].tolist()
 
@@ -35,11 +35,11 @@ boost_domains = [
     "*.org"
 ]
 
-with open("ponder_boosted_citations.txt", "w") as f:
+with open("ponder_summary_view_goggles.txt", "w") as f:
 
     f.write(f"\n! Hause Lin's Domains pc1 >= 0.8 \n")
     for domain in credible_domains:
-        boost_string = f"$boost=10000,site={domain}"
+        boost_string = f"$boost=9,site={domain}"
         f.write(boost_string + "\n")
     
     # f.write(f"\n! Boosted Credible Domain Suffixes \n")
