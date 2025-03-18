@@ -78,7 +78,7 @@ $boost=7,site=kuow.org
 $boost=7,site=niagara-gazette.com
 $boost=7,site=daltondailycitizen.com
 $boost=7,site=thejakartapost.com
-$boost=7,site=channel4.com/news
+$boost=7,site=channel4.com
 $boost=7,site=backchannel.com
 $boost=7,site=helvidius.org
 $boost=7,site=durangoherald.com
@@ -265,7 +265,7 @@ $boost=7,site=bustle.com
 $boost=7,site=tpi.it
 $boost=7,site=pdxmonthly.com
 $boost=7,site=crescent-news.com
-$boost=7,site=nhk.or.jp/nhkworld
+$boost=7,site=nhk.or.jp
 $boost=7,site=asahi.com
 $boost=7,site=infobae.com
 $boost=7,site=nos.nl
@@ -522,7 +522,7 @@ $boost=7,site=edinburgreview.com
 $boost=7,site=cambridge.org
 $boost=7,site=greentechmedia.com
 $boost=7,site=magazine.atavist.com
-$boost=7,site=aawsat.com/english
+$boost=7,site=aawsat.com
 $boost=7,site=nationalistwire.com
 $boost=7,site=ipcc.ch
 $boost=7,site=aspentimes.com
@@ -977,8 +977,8 @@ $boost=7,site=wdrb.com
 $boost=7,site=pulsetoday.co.uk
 $boost=7,site=swindonadvertiser.co.uk
 $boost=7,site=flatheadbeacon.com
-$boost=7,site=cato.org/regulation
-$boost=7,site=theguardian.com/observer
+$boost=7,site=cato.org
+$boost=7,site=theguardian.com
 $boost=7,site=ketk.com
 $boost=7,site=tj.news
 $boost=7,site=voicesofyouth.org
@@ -1731,7 +1731,7 @@ $boost=7,site=numbersusa.com
 $boost=7,site=animeright.news
 $boost=7,site=democratizeus.com
 $boost=7,site=truthexaminer.com
-$boost=7,site=zcomm.org/zmag
+$boost=7,site=zcomm.org
 $boost=7,site=stacyontheright.com
 $boost=7,site=themanc.com
 $boost=7,site=presstv.ir
@@ -2282,7 +2282,7 @@ $boost=7,site=leftfootforward.org
 $boost=7,site=ricochet.com
 $boost=7,site=townhallmail.com
 $boost=7,site=crashdebug.fr
-$boost=7,site=jpost.com/jerusalem-report
+$boost=7,site=jpost.com
 $boost=7,site=santacruzsentinel.com
 $boost=7,site=aad.org
 $boost=7,site=castlegarnews.com
@@ -2602,7 +2602,7 @@ $boost=7,site=gvnews.com
 $boost=7,site=anchoragepress.com
 $boost=7,site=iltirreno.gelocal.it
 $boost=7,site=prairieadvocate.com
-$boost=7,site=yahoo.com/news
+$boost=7,site=yahoo.com
 $boost=7,site=aspeniaonline.it
 $boost=7,site=shondaland.com
 $boost=7,site=alaskapublic.org
@@ -2724,7 +2724,7 @@ $boost=7,site=rewire.news
 $boost=7,site=dailytelegraph.com.au
 $boost=7,site=c19study.com
 $boost=7,site=cryptopotato.com
-$boost=7,site=cato.org/blog
+$boost=7,site=cato.org
 $boost=7,site=latinorebels.com
 $boost=7,site=tammybruce.com
 $boost=7,site=alexpoucher.com
@@ -3119,7 +3119,7 @@ $boost=7,site=pnn.de
 $boost=7,site=jetzt.de
 $boost=7,site=alaskahighwaynews.ca
 $boost=7,site=whotv.com
-$boost=7,site=westernjournal.com/commentary
+$boost=7,site=westernjournal.com
 $boost=7,site=newschannel9.com
 $boost=7,site=billmoyers.com
 $boost=7,site=senegal7.com
@@ -3426,7 +3426,7 @@ $boost=7,site=redalertpolitics.com
 $boost=7,site=omgmag.fr
 $boost=7,site=popsugar.com
 $boost=7,site=mabusinessdaily.com
-$boost=7,site=aol.com/news
+$boost=7,site=aol.com
 $boost=7,site=morganton.com
 $boost=7,site=lowestoftjournal.co.uk
 $boost=7,site=dailycorinthian.com
